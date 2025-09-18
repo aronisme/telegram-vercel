@@ -1,0 +1,12 @@
+{
+  "name": "telegram-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/node": "3.1.7"
+  },
+  "devDependencies": {
+    "typescript": "5.6.3"
+  }
+}

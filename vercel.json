@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [{ "src": "api/*.ts", "use": "@vercel/node" }],
+  "routes": [
+    { "src": "/api/webhook", "dest": "api/webhook.ts" },
+    { "src": "/api/ai", "dest": "api/ai.ts" },
+    { "src": "/api/gas", "dest": "api/gas.ts" },
+    { "src": "/api/relay", "dest": "api/relay.ts" }
+  ]
+}
